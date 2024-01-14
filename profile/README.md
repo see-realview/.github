@@ -15,38 +15,10 @@
 - [ ] 프로젝트 초기설정
 
 ### 백엔드
-- [ ] ERD 설계
 - [ ] API 설계
-- [ ] 와이어프레임 구체화
-
-</br>
-
-## 설치 방법
-
-### 백엔드
-> Require
-> - JDK 17
-> - Spring 3.1.4
-
-1. clone project
-```
-$ git clone https://github.com/see-realview/see-realview-backend.git
-$ cd see-realview-backend
-$ cd see-realview
-```
-
-2. build and execute
-```
-$ ./gradlew build
-$ cd build
-$ cd libs
-$ java -jar see-realview-0.0.1-SNAPSHOT.jar
-```
-
-</br>
-
-## 기본 사용 예시
-- 업데이트 예정
+- [ ] 리포트 비속어 필터링 기능 구현
+- [ ] 포스트 북마크 기능 구현
+- [ ] 익명 사용자의 검색 기록 구현
 
 </br>
 
@@ -61,7 +33,9 @@ $ java -jar see-realview-0.0.1-SNAPSHOT.jar
 </br>
 
 ## 변경 로그 소개
-- 2023.10.19 : 백엔드 프로젝트 초기 설정 [#7](https://github.com/see-realview/see-realview-backend/issues/7)
+- 2023.10.19 : 백엔드 프로젝트 초기 설정
+- 2024.01.12 : v1.0 배포 (MVP 구현)
+- 2024.01.14 : v1.1 배포 (캐싱 버그 수정)
 
 </br>
 
